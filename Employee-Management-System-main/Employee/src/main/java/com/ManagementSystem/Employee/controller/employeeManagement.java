@@ -25,7 +25,7 @@ public class employeeManagement {
 
     private empServiceImpl obj;
     
-    @GetMapping("/getAllEmp") // Specify the endpoint URL
+    @GetMapping("/getAllEmp") 
     public List<employee> getAllBooks() {
         return obj.getAllEmp();
     }
